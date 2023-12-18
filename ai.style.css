@@ -6,6 +6,7 @@ input.search {
     border-radius: 5px;
     outline: none;
     min-width: 60vw;
+    min-height: 5vw;
   }
   
   /* Style on focus for better user experience */
