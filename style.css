@@ -31,3 +31,16 @@
     display: inline-block;
     border-radius: 5px;
   }
+
+  .trending {
+
+    min-height: 10vh;
+    display: flex;  
+align-items: center;
+justify-content: center;
+
+  }
+
+.bannerwallpaper {
+  width: 100vw;
+}
