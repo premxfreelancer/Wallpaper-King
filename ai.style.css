@@ -5,6 +5,7 @@ input.search {
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
+    min-width: 60vw;
   }
   
   /* Style on focus for better user experience */
