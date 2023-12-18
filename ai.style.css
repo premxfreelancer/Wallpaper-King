@@ -1,0 +1,26 @@
+/* Basic styling for the search input */
+input.search {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style on focus for better user experience */
+  input.search:focus {
+     border-color: #3498db; /* Highlight border color on focus */
+     box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);/* Add a subtle box shadow on focus */
+  }
+  
+  /* Placeholder text styling */
+  input.search::placeholder {
+    color: #999; /* Placeholder text color */
+    font-style: italic;
+  }
+  
+  /* Optional: Add transition for smoother effects */
+  input.search {
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
