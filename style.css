@@ -62,3 +62,10 @@ height: 20vh;
   border-radius: 30px;
   cursor: pointer;
 }
+
+.hr {
+  border: none;
+ 
+  height: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
