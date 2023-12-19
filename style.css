@@ -69,3 +69,12 @@ height: 20vh;
   height: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.Wallpaper {
+  width: 100%;
+}
+.Wallpapermobile {
+ width: 50%;
+ margin: 0;
+ padding: 0;
+}
