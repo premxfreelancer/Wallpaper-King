@@ -26,3 +26,49 @@ input.search {
     transition: border-color 0.3s, box-shadow 0.3s;
   }
   
+
+  .tip-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    margin-bottom: 20px;/* Optional: Add some margin for better spacing */
+  }
+  
+
+.tip-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Style for the tip text */
+.tip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -70vw;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Show the tip text on hover */
+.tip-container:hover .tip-text {
+  visibility: visible;
+  opacity: 1;
+}
