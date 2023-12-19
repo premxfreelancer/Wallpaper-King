@@ -44,3 +44,21 @@ justify-content: center;
 .bannerwallpaper {
   width: 100vw;
 }
+
+.secs {
+ 
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+height: 20vh;
+}
+.secs button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
