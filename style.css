@@ -78,3 +78,28 @@ height: 20vh;
  margin: 0;
  padding: 0;
 }
+
+.sources {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  font-size: xx-small;
+}
+.copy {
+  background: #333; /* Darker background color for better contrast */
+  border-top: 1px #555 solid; /* Slightly darker border color */
+  height: 10vh;
+  color: #fff; /* White text for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px; /* Adjusted font size for better readability */
+  text-align: center; /* Center-align text for better presentation */
+}
+
+/* Add some padding to give the content some space */
+.copy p {
+  padding: 10px;
+}
