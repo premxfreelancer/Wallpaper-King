@@ -103,3 +103,55 @@ height: 20vh;
 .copy p {
   padding: 10px;
 }
+
+
+
+
+/* Add these styles to your CSS file */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #4592c5; /* Change the color of the scrollbar handle */
+  border-radius: 6px; /* Round the corners of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9; /* Change the color on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dddddd; /* Change the color of the scrollbar track */
+}
+
+/* Handle on inactive state */
+::-webkit-scrollbar-thumb:active {
+  background-color: #2980b9; /* Change the color on click */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background: transparent; /* Change the color of the scrollbar corner */
+}
+
+/* Specify scrollbar styles for Firefox */
+/* Note: These styles might not be supported in the latest versions of Firefox */
+
+/* Track */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3498db #f1f1f1;
+}
+
+/* Handle on hover */
+html:hover {
+  scrollbar-color: #2980b9 #f1f1f1;
+}
+
+
